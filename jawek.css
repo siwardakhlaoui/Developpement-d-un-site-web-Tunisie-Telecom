@@ -1,0 +1,111 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+* body{
+    background-size:cover;
+    display: flex;
+    flex-direction: column;
+}
+#header{
+    height: 35px;
+    background: #d3d3dd;
+}
+#particulier{
+    background: #ff1493;
+    color: white;
+    text-decoration: none;
+}
+#entreprise{
+    text-decoration: none;
+}
+#entreprise:hover{
+    background-color: #191970;
+    color: white;
+    
+}
+#eshop:hover{
+    background: #ff1493;
+    color: white;
+}
+    #eshop{
+    text-decoration: none;
+    }
+    #apropos{
+        text-decoration: none;
+    }
+    #trouver{
+        text-decoration: none;
+    }
+    #fb{
+        text-decoration: none;
+    }
+    #tw{
+        text-decoration: none;
+    }
+    #you{
+        text-decoration: none;
+    }
+    #bloc1{
+        float: right;
+        flex-direction: row;
+    }
+    #bloc{
+        background-color: #ff1493;
+        height: 100pX;
+        width: 200px;
+        display: inline-block;}
+
+
+.menu-bar{
+    background: white;
+    text-align: center;
+
+}
+.menu-bar ul {
+    display: inline-flex;
+    list-style: none;
+    color: rgb(160, 44, 44);
+
+}
+.menu-bar ul li {
+    width: 120px;
+    margin: 15px;
+    padding: 15px;
+}
+.menu-bar ul li a {
+    text-decoration: none;
+    color:blue;
+
+}
+.sub-menu-1{
+    display: none;
+}
+.menu-bar ul li:hover .sub-menu-1 
+{
+    display: block;
+    position: absolute;
+    margin-top: 15px;
+    margin-left: -15px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul
+{
+    display: block;}
+.menu-bar ul li:hover .sub-menu-1 ul li
+    {
+        width: 150px;
+        padding: 10px;
+        background: transparent;
+    }
+.menu-bar ul li:hover .sub-menu-1 ul li:last-child
+    {
+        border-bottom: :none;
+    }
+.menu-bar ul li:hover .sub-menu-1 ul li a:hover
+    {
+        color: blue;
+    }
+    .sub-menu-1 ul{
+        display: none;
+    }
